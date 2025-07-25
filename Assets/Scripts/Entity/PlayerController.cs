@@ -34,6 +34,6 @@ public class PlayerController : MonoBehaviour
         if (_rigidbody != null)
         {
             _rigidbody.MovePosition(_rigidbody.position + moveInput.normalized * moveSpeed * Time.fixedDeltaTime);
-        }
+        }//
     }
 }
